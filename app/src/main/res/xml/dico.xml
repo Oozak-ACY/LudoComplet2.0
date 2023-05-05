@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dico xmlns:android="http://schemas.android.com/apk/res/android">
+    <theme nom="fleurs">
+        <mot contenu="rose" points="3"></mot>
+        <mot contenu="hortensia" points="7"></mot>
+        <mot contenu="glycine" points="9"></mot>
+        <mot contenu="campanule" points="5"></mot>
+        <mot contenu="tulipe" points="2"></mot>
+        <mot contenu="jonquille" points="1"></mot>
+        <mot contenu="lilas" points="4"></mot>
+        <mot contenu="pivoine" points="3"></mot>
+        <mot contenu="cosmos" points="2"></mot>
+        <mot contenu="muguet" points="1"></mot>
+        <mot contenu="oeillet" points="2"></mot>
+        <mot contenu="hibiscus" points="4"></mot>
+    </theme>
+    <theme nom="animaux">
+        <mot contenu="tigre" points="3"></mot>
+        <mot contenu="lion" points="2"></mot>
+        <mot contenu="girafe" points="5"></mot>
+        <mot contenu="gazelle" points="6"></mot>
+        <mot contenu="pingouin" points="5"></mot>
+        <mot contenu="papillon" points="3"></mot>
+    </theme>
+    <theme nom="warhammer">
+        <mot contenu="empereur" points="7"></mot>
+        <mot contenu="abbadon" points="2"></mot>
+        <mot contenu="terra" points="5"></mot>
+        <mot contenu="sanguinius" points="8"></mot>
+        <mot contenu="shadowsun" points="6"></mot>
+        <mot contenu="vasshtor" points="6"></mot>
+        <mot contenu="azrael" points="3"></mot>
+        <mot contenu="belakor" points="4"></mot>
+        <mot contenu="tzeench" points="5"></mot>
+        <mot contenu="alpharius" points="2"></mot>
+    </theme>
+    <theme nom="jeux">
+        <mot contenu="battlefield" points="5"></mot>
+        <mot contenu="warcraft" points="5"></mot>
+        <mot contenu="sekiro" points="3"></mot>
+        <mot contenu="starcraft" points="6"></mot>
+        <mot contenu="minecraft" points="3"></mot>
+        <mot contenu="brawlhalla" points="4"></mot>
+        <mot contenu="foxhole" points="3"></mot>
+        <mot contenu="phasmophobia" points="3"></mot>
+        <mot contenu="labyrinthine" points="5"></mot>
+        <mot contenu="trackmania" points="4"></mot>
+    </theme>
+</dico>

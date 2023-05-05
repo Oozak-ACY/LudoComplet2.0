@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_padding"
+    android:paddingTop="@dimen/activity_vertical_padding"
+    android:paddingRight="@dimen/activity_horizontal_padding"
+    android:paddingBottom="@dimen/activity_vertical_padding"
+    tools:context=".CompterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fenetreJeu"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/btDemarrerJeu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="0dp"
+            android:onClick="onClickbtDemarrerJeu"
+            android:text="Recommencer le jeu"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+
+            <TextView
+                android:id="@+id/tvChaine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="50sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/etNbPoints"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center|center_horizontal"
+            android:ems="10"
+            android:hint="Tapez votre réponse ici"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/bleu"/>
+
+        <Button
+            android:id="@+id/btValider"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:onClick="onClickbtValider"
+            android:text="Valider"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tvReponses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ton score"
+                android:textColor="@color/violet"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNbPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:textColor="@color/violet"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fenetreFinDePartie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+
+            <TextView
+                android:id="@+id/tvFinDePartie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Fin de la partie !"
+                android:textColor="@color/red"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+
+            <TextView
+                android:id="@+id/tvScoreFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btreDemarrerJeu"
+            android:layout_marginTop="100dp"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:onClick="onClickbtDemarrerJeu"
+            android:text="Demarrer un nouveau jeu"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fenetreAccueil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+
+            <TextView
+                android:id="@+id/tvBienvenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Bienvenu sur Warhacount !"
+                android:textColor="@color/purple_500"
+                android:textSize="50sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:id="@+id/tvRegles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/txtRegles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btCommencerJeu"
+            android:layout_marginTop="30dp"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:onClick="onClickbtDemarrerJeu"
+            android:text="Commencer le jeu"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+

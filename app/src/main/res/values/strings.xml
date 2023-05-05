@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Ludo 2.0</string>
+    <string name="senu_settings">Settings</string>
+    <string name="btJouer">Jover</string>
+    <string name="btNoweauleu">Nouveau Jeux</string>
+    <string name="btAtout">Atout</string>
+    <string name="btJoueurt">Joueur 1</string>
+    <string name="btJoueur2">Joueur 2</string>
+    <string name="btAucunloveur">Aucun Joueur</string>
+    <string name="txtCarte1">carte du Joueur 1</string>
+    <string name="txtCarte2">carte du Joueur 2</string>
+    <string name="txt71">As de pique : 10 points</string>
+    <string name="txt72">7 de coeur : 7 points</string>
+    <string name="txtScore1">8 point</string>
+    <string name="txtScore2">9 point</string>
+    <string name="txtResultat">Qui va gagner les points 3</string>
+    <string name="cdtTotalPoints">Total 2</string>
+    <string name="txtReponses">Tes réponses correctes</string>
+    <string name="txtNbRepCorrectes">8 / 26</string>
+    <string name="nouveau_jeu">Nouveau jeu</string>
+    <string name="atout">atout</string>
+    <string name="about">About</string>
+    <string name="menu_parametres">Paramètres</string>
+    <string name="menu_chercher">Chercher</string>
+    <string name="menu_compter">Compter</string>
+    <string name="menu_bataille">Bataille</string>
+    <string name="menu_pendu">Pendu</string>
+
+    <string name="txtLettreMots">Lettre ou mot</string>
+    <string name="txtRebu">Lettre au Rebus :</string>
+    <string name="txtBtnRestart">Relancer une partie</string>
+    <string name="txtTvWin">Vous avez gagné</string>
+
+    <!--    préférences-->
+    <string name="prefs_mes_parametres">Mes paramètres</string>
+    <string name="prefs_theme">Thème vert et rose</string>
+    <string name="prefs_nom_joueur">Nom joueur</string>
+    <string name="prefs_non_renseigne">Non renseigné</string>
+    <string name="prefs_mes_scores">Mes scores</string>
+
+    <!-- main-->
+    <string name="txtSalut">Salut</string>
+    <string name="txtPremiereUtilisation">Tu peux dès maintenant entrer ton pseudo !</string>
+
+
+    <!-- Compter -->
+
+    <string name="txtRegles">Les règles sont simples, vous devrez découvrir quel mot se cache sous l\'arbre. Mais attention ! A chaque erreur le bucheron entaillera le beau cerisier. Il faut donc trouver le mot avant que le bucheron n\'aie coupé l\'arbre !</string>
+
+</resources>

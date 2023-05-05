@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_compter"
+        android:icon="@drawable/ic_twotone_calculate_24"
+        android:title="@string/menu_compter"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_bataille"
+        android:icon="@drawable/coeur_as"
+        android:title="@string/menu_bataille"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_pendu"
+        android:icon="@drawable/pendu"
+        android:title="@string/menu_pendu"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_chercher"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/menu_chercher"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/menu_parametres"
+        android:title="@string/menu_parametres"
+        app:showAsAction="never" />
+</menu>
