@@ -49,7 +49,7 @@ public class PenduActivity extends AppCompatActivity {
 
         setContentView(ui.getRoot());
 
-        // créer le juge et le bourreau
+
         leJuge = new Juge(DicoXml.getLesthemes(getResources().getXml(R.xml.dico)));
 
         ui.fenetreFin.setVisibility(View.GONE);
